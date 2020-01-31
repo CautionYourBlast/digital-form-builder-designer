@@ -1,7 +1,7 @@
 {
   "name": "digital-form-builder-designer",
-  "version": "0.2.0",
-  "description": "A hapi plugin providing a visual designer for digital form builder based applications",
+  "version": "1.0.0",
+  "description": "Digital forms designer (FCO)",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
@@ -13,12 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DEFRA/digital-form-builder-designer"
+    "url": "https://github.com/UKForeignOffice/digital-form-builder-designer"
   },
-  "author": "Department for Environment, Food and Rural Affairs <https://www.gov.uk/government/organisations/department-for-environment-food-rural-affairs>.",
   "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
-    "digital-form-builder-engine": "CautionYourBlast/digital-form-builder-engine",
+    "digital-form-builder-engine": "https://github.com/UKForeignOffice/digital-form-builder-engine#v1.0.0",
     "@hapi/wreck": "^17.0.0",
     "flat": "^5.0.0",
     "joi": "14.0.2"
